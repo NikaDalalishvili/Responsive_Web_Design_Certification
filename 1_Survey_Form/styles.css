@@ -47,7 +47,7 @@ body::before {
 }
 
 .wrapper {
-    padding-top: 50px;
+    padding: 50px 50px 0;
     display: flex;
     justify-content: center;
 }
@@ -109,6 +109,17 @@ body::before {
     font-size: 18px;
 
     color: var(--primary__white);
+}
+
+.user-recommend__group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-recommend__input {
+    min-width: 15px;
+    min-height: 15px;
 }
 
 .survey__form-label {
