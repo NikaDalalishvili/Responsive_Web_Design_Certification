@@ -112,6 +112,11 @@ header {
   font-size: 22px;
 
   color: var(--primary__white);
+  transition: color 0.3s ease-out;
+}
+
+.navbar-link:hover {
+  color: var(--primary);
 }
 
 /* 
@@ -248,13 +253,11 @@ header {
   gap: 35px;
 }
 
-.projects-container>*:not(.line-vertical) {}
-
 .project-card {
   width: 400px;
   border: 2px solid var(--primary);
   border-radius: 10px;
-  background-color: var(--primary__black-li);
+  background-color: rgba(34, 40, 49, 0.7);
   overflow-x: hidden;
 
   display: flex;
@@ -325,6 +328,21 @@ header {
 
   color: var(--primary__white);
   text-align: left;
+}
+
+.certificate-caption span {
+  color: var(--primary);
+}
+
+.certificate-link {
+  font-size: 24px;
+  color: var(--primary);
+  text-shadow: 5px -5px 15px var(--primary__li);
+  transition: color 0.3s ease-out;
+}
+
+.certificate-link:hover {
+  color: var(--primary__li);
 }
 
 /* 
