@@ -146,6 +146,7 @@ figure {
 
     color: var(--primary__white);
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .footer-end a:hover {
